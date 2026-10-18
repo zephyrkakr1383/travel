@@ -1,0 +1,5725 @@
+/* ==============================
+   ОСНОВНЫЕ НАСТРОЙКИ
+   ============================== */
+
+html {
+    background-color: #13191f;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #13191f;
+    color: #ca9c68;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+
+/* ==============================
+   ШАПКА
+   ============================== */
+
+.glav {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.glav td {
+    border: 0;
+    padding: 0 100px;
+    white-space: nowrap;
+}
+
+.glav td:first-child {
+    width: 1%;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.glav h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.glav a {
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.glav a:hover {
+    color: #906d4b;
+}
+
+
+/* ==============================
+   ОБЩИЕ ССЫЛКИ
+   ============================== */
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+em {
+    background-color: #594c3d;
+}
+
+/* ==============================
+   ОСНОВНОЙ КОНТЕНТ
+   ============================== */
+
+.base {
+    overflow: hidden;
+}
+
+.base img {
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+}
+
+
+/* ==============================
+   ГЛАВНАЯ СТРАНИЦА
+   ============================== */
+
+.index .info table {
+    width: 100%;
+    margin: 45px 0 20px;
+    background-color: #2b2f2e;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.index .info th,
+.index .info td {
+    padding: 15px 30px;
+    background-color: #2b2f2e;
+}
+
+
+/* Карточки достопримечательностей */
+
+.more {
+    margin: 10px 0 100px;
+}
+
+.more img {
+    transition: 0.2s;
+}
+
+.more img:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+.more td {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+                            /* ==============================
+                                    КОРОЛЕВСКИЙ ДВОРЕЦ
+                            ============================== */
+
+
+
+/* Главное изображение */
+
+.grand-palace .base > img {
+    float: right;
+    width: 800px;
+    margin: 0 30px 20px 30px;
+}
+
+
+/* Текст */
+
+.grand-palace .base p {
+    line-height: 1.6;
+}
+
+
+/* Заголовки */
+
+.grand-palace .base h1 {
+    margin-bottom: 25px;
+}
+
+.grand-palace .base h2 {
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   СТОИМОСТЬ ПОСЕЩЕНИЯ
+   ============================== */
+
+.grand-palace .price {
+    background-color: #2b2f2e;
+    margin: 150px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.grand-palace .price h2,
+.grand-palace .price p,
+.grand-palace .price ul,
+.grand-palace .price li {
+    background-color: #2b2f2e;
+}
+
+.grand-palace .price h2 {
+    margin: 10px 0 15px;
+}
+
+.grand-palace .price img {
+    float: right;
+    width: 600px;
+    margin: 0 0 20px 30px;
+}
+
+
+/* ==============================
+   ВРЕМЯ РАБОТЫ
+   ============================== */
+
+.grand-palace .working-hours {
+    margin: 30px 20px;
+}
+
+
+/* ==============================
+   КАК ДОБРАТЬСЯ
+   ============================== */
+
+.grand-palace .mesto {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.grand-palace .mesto h2,
+.grand-palace .mesto p,
+.grand-palace .mesto ol,
+.grand-palace .mesto li {
+    background-color: #2b2f2e;
+}
+
+
+/* ==============================
+   ЧТО ПОСМОТРЕТЬ ВНУТРИ
+   ============================== */
+
+.grand-palace .inside {
+    margin: 30px 20px;
+}
+
+
+/* ==============================
+   ЧТО НАХОДИТСЯ РЯДОМ
+   ============================== */
+
+.grand-palace .info {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.grand-palace .info h2,
+.grand-palace .info p,
+.grand-palace .info ul,
+.grand-palace .info li {
+    background-color: #2b2f2e;
+}
+
+.grand-palace .info em {
+    background-color: #594c3d;
+}
+
+.grand-palace .info h2 {
+    margin: 10px 0 15px;
+}
+
+.grand-palace .info li {
+    padding: 10px;
+}
+
+
+/* ==============================
+   ВАЖНОЕ ДЛЯ ТУРИСТОВ
+   ============================== */
+
+.grand-palace .important {
+    margin: 30px 20px 100px;
+}
+
+
+                            /* ==============================
+                                        ВАТ ПХО
+                            ============================== */
+
+
+/* Главное изображение */
+
+.vat-pho .base > img {
+    float: right;
+    width: 800px;
+    margin: 0 30px 20px 30px;
+}
+
+
+/* Текст */
+
+.vat-pho .base p {
+    line-height: 1.6;
+}
+
+
+/* Заголовки */
+
+.vat-pho .base h1 {
+    margin-bottom: 25px;
+}
+
+.vat-pho .base h2 {
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   СТОИМОСТЬ ПОСЕЩЕНИЯ
+   ============================== */
+
+.vat-pho .price {
+    background-color: #2b2f2e;
+    margin: 10px 450px 30px 0px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.vat-pho .price h2,
+.vat-pho .price p,
+.vat-pho .price ul,
+.vat-pho .price li {
+    background-color: #2b2f2e;
+}
+
+.vat-pho .price h2 {
+    margin: 10px 0 15px;
+}
+
+.vat-pho .price img {
+    float: right;
+    width: 600px;
+    margin: 0 0 20px 30px;
+}
+
+
+/* ==============================
+   ВРЕМЯ РАБОТЫ
+   ============================== */
+
+.vat-pho .working-hours {
+    margin: 30px 20px;
+}
+
+
+/* ==============================
+   КАК ДОБРАТЬСЯ
+   ============================== */
+
+.vat-pho .mesto {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.vat-pho .mesto h2,
+.vat-pho .mesto p,
+.vat-pho .mesto ol,
+.vat-pho .mesto li {
+    background-color: #2b2f2e;
+}
+
+
+/* ==============================
+   ЧТО ПОСМОТРЕТЬ ВНУТРИ
+   ============================== */
+
+.vat-pho .inside {
+    margin: 30px 20px;
+}
+
+.vat-pho .inside > img {
+    float: right;
+    width: 700px;
+    margin: 0 30px 20px 30px;
+}
+
+.vat-pho .inside p {
+    line-height: 1.6;
+}
+
+.vat-pho .inside h2 {
+    margin-top: 30px;
+}
+
+/* ==============================
+   ЧТО НАХОДИТСЯ РЯДОМ
+   ============================== */
+
+.vat-pho .info {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.vat-pho .info h2,
+.vat-pho .info p,
+.vat-pho .info ul,
+.vat-pho .info li {
+    background-color: #2b2f2e;
+}
+
+.vat-pho .info h2 {
+    margin: 10px 0 15px;
+}
+
+.vat-pho .info li {
+    padding: 10px;
+}
+
+
+/* ==============================
+   ВАЖНОЕ ДЛЯ ТУРИСТОВ
+   ============================== */
+
+.vat-pho .important {
+    margin: 30px 20px 100px;
+}
+
+
+                            /* ==============================
+                                        ВАТ АРУН
+                            ============================== */
+
+
+   /* Главное изображение */
+
+.vat-arun .base > img {
+    float: right;
+    width: 800px;
+    margin: 0 30px 20px 30px;
+}
+
+
+/* Текст */
+
+.vat-arun .base p {
+    line-height: 1.6;
+}
+
+
+/* Заголовки */
+
+.vat-arun .base h1 {
+    margin-bottom: 25px;
+}
+
+.vat-arun .base h2 {
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   СТОИМОСТЬ ПОСЕЩЕНИЯ
+   ============================== */
+
+.vat-arun .price {
+    background-color: #2b2f2e;
+    margin: 120px 0px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+}
+
+.price-img {
+    width: 560px !important;
+}
+
+.vat-arun .price h2,
+.vat-arun .price p,
+.vat-arun .price ul,
+.vat-arun .price li {
+    background-color: #2b2f2e;
+}
+
+.vat-arun .price h2 {
+    margin: 10px 0 15px;
+}
+
+.vat-arun .price img {
+    float: right;
+    width: 450px;
+    margin: 0 0 0px 30px;
+}
+
+
+/* ==============================
+   ВРЕМЯ РАБОТЫ
+   ============================== */
+
+.vat-arun .working-hours {
+    margin: 30px 20px;
+}
+
+
+/* ==============================
+   КАК ДОБРАТЬСЯ
+   ============================== */
+
+.vat-arun .mesto {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.vat-arun .mesto h2,
+.vat-arun .mesto p,
+.vat-arun .mesto ul,
+.vat-arun .mesto li,
+.vat-arun .mesto strong {
+    background-color: #2b2f2e;
+}
+
+
+/* ==============================
+   ЧТО ПОСМОТРЕТЬ ВНУТРИ
+   ============================== */
+
+.vat-arun .inside {
+    margin: 30px 20px;
+}
+
+                                        /* ==============================
+                                    ПРОКРУТКА КАРТИНОК (НЕ ТРОГАТЬ ПОКА РАБОТАЕТ)
+                                        ============================== */
+
+.vat-arun .images {
+    position: relative;
+    width: 600px;
+    height: 390px;
+    margin: 20px 20px 30px 0;
+    overflow: hidden;
+    float: left;
+}
+
+.vat-arun .images input {
+    display: none;
+}
+
+.vat-arun .slides {
+    width: 100%;
+    height: 100%;
+}
+
+.vat-arun .slide {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.vat-arun .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Показываем нужный слайд */
+
+#slide1:checked ~ .slides .slide1 {
+    display: block;
+}
+
+#slide2:checked ~ .slides .slide2 {
+    display: block;
+}
+
+#slide3:checked ~ .slides .slide3 {
+    display: block;
+}
+
+
+/* Стрелки */
+
+.vat-arun .prev,
+.vat-arun .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 30px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.vat-arun .prev {
+    left: 15px;
+}
+
+.vat-arun .next {
+    right: 15px;
+}
+
+/* ==============================
+   ЧТО НАХОДИТСЯ РЯДОМ
+   ============================== */
+
+.vat-arun .info {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.vat-arun .info h2,
+.vat-arun .info h4,
+.vat-arun .info p,
+.vat-arun .info ul,
+.vat-arun .info li {
+    background-color: #2b2f2e;
+}
+
+.vat-arun .info h2 {
+    margin: 10px 0 15px;
+}
+
+.vat-arun .info li {
+    padding: 10px;
+}
+
+
+/* ==============================
+   ВАЖНОЕ ДЛЯ ТУРИСТОВ
+   ============================== */
+
+.vat-arun .important {
+    margin: 30px 20px 100px;
+}
+
+                            /* ==============================
+                                       КАОСАН РОУД
+                            ============================== */
+
+
+/* Главное изображение */
+
+.caosan-roude .base > img {
+
+    float: right;
+
+    width: 800px;
+
+    margin: 0 30px 20px 30px;
+
+}
+
+
+/* Текст */
+
+.caosan-roude .base p {
+
+    line-height: 1.6;
+
+}
+
+
+/* Заголовки */
+
+.caosan-roude .base h1 {
+
+    margin-bottom: 25px;
+
+}
+
+.caosan-roude .base h2 {
+
+    margin-top: 30px;
+
+}
+
+
+/* ==============================
+   СТОИМОСТЬ ПОСЕЩЕНИЯ
+   ============================== */
+
+.caosan-roude .price {
+
+    background-color: #2b2f2e;
+
+    margin: 30px 450px 30px 20px;
+
+    padding: 10px 20px 20px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+}
+
+.caosan-roude .price h2,
+.caosan-roude .price p,
+.caosan-roude .price ul,
+.caosan-roude .price strong,
+.caosan-roude .price li {
+
+    background-color: #2b2f2e;
+
+}
+
+.caosan-roude .price h2 {
+
+    margin: 10px 0 15px;
+
+}
+
+
+/* ==============================
+   ВРЕМЯ РАБОТЫ
+   ============================== */
+
+.caosan-roude .working-hours {
+
+    margin: 30px 20px;
+
+}
+
+
+/* ==============================
+   КАК ДОБРАТЬСЯ
+   ============================== */
+
+.caosan-roude .mesto {
+
+    background-color: #2b2f2e;
+
+    margin: 30px 450px 30px 20px;
+
+    padding: 10px 20px 20px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+}
+
+.caosan-roude .mesto h2,
+.caosan-roude .mesto p,
+.caosan-roude .mesto ul,
+.caosan-roude .mesto li,
+.caosan-roude .mesto strong {
+
+    background-color: #2b2f2e;
+
+}
+
+
+/* ==============================
+   ЧТО ПОСМОТРЕТЬ
+   ============================== */
+
+.caosan-roude .inside {
+
+    margin: 30px 20px;
+
+}
+
+
+/* ==============================
+   ПРОКРУТКА КАРТИНОК
+   ============================== */
+
+.caosan-roude .images {
+
+    position: relative;
+
+    width: 600px;
+
+    height: 390px;
+
+    margin: 20px 20px 30px 0;
+
+    overflow: hidden;
+
+    float: left;
+
+}
+
+.caosan-roude .images input {
+
+    display: none;
+
+}
+
+.caosan-roude .slides {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.caosan-roude .slide {
+
+    display: none;
+
+    position: relative;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.caosan-roude .slide img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+}
+
+
+/* Показываем нужный слайд */
+
+#slide1:checked ~ .slides .slide1 {
+
+    display: block;
+
+}
+
+#slide2:checked ~ .slides .slide2 {
+
+    display: block;
+
+}
+
+#slide3:checked ~ .slides .slide3 {
+
+    display: block;
+
+}
+
+
+/* Стрелки */
+
+.caosan-roude .prev,
+.caosan-roude .next {
+
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    color: white;
+
+    font-size: 30px;
+
+    padding: 5px 15px;
+
+    cursor: pointer;
+
+}
+
+.caosan-roude .prev {
+
+    left: 15px;
+
+}
+
+.caosan-roude .next {
+
+    right: 15px;
+
+}
+
+
+/* ==============================
+   ЧТО НАХОДИТСЯ РЯДОМ
+   ============================== */
+
+.caosan-roude .info {
+
+    background-color: #2b2f2e;
+
+    margin: 300px 400px 30px 20px;
+
+    padding: 10px 20px 20px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+}
+
+.caosan-roude .info h2,
+.caosan-roude .info h4,
+.caosan-roude .info p,
+.caosan-roude .info ul,
+.caosan-roude .info strong,
+.caosan-roude .info li {
+
+    background-color: #2b2f2e;
+
+}
+
+.caosan-roude .info h2 {
+
+    margin: 10px 0 15px;
+
+}
+
+.caosan-roude .info li {
+
+    padding: 10px;
+
+}
+
+
+/* ==============================
+   ВАЖНОЕ ДЛЯ ТУРИСТОВ
+   ============================== */
+
+.caosan-roude .important {
+
+    margin: 30px 20px 100px;
+    
+}
+
+
+
+
+
+
+                                    /* ==============================
+                                         СТРАНИЦА МЕСТ
+                                    ============================== */
+
+/* Основной контейнер */
+
+.places {
+    margin: 30px auto 100px;
+    padding: 0 50px;
+}
+
+
+/* Заголовок */
+
+.places > h1 {
+    text-align: center;
+    margin: 30px 0 40px;
+}
+
+
+/* Сетка */
+
+.places-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+/* Карточка */
+
+.place-card {
+    min-width: 0;
+    background-color: #2b2f2e;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+
+/* Картинка */
+
+.place-card a {
+    display: block;
+    overflow: hidden;
+}
+
+
+.place-card img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+/* Название */
+
+.place-card h2 {
+    margin: 15px 15px 10px;
+    font-size: 20px;
+    background-color: #2b2f2e;
+}
+
+
+/* Описание */
+
+.place-card p {
+    margin: 0 15px;
+    line-height: 1.5;
+    background-color: #2b2f2e;
+}
+
+
+/* Hover */
+
+.place-card:hover {
+    transform: translateY(-5px);
+}
+
+.place-card:hover img {
+    transform: scale(1.05);
+}
+
+
+                                        /* ==============================
+                                                    ЧАТУЧАК
+                                        ============================== */
+
+.chatuchak .base > img {
+    float: right;
+    width: 800px;
+    margin: 0 30px 20px 30px;
+}
+
+.chatuchak .base p {
+    line-height: 1.6;
+}
+
+.chatuchak .base h1 {
+    margin-bottom: 25px;
+}
+
+.chatuchak .base h2 {
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   ГДЕ НАХОДИТСЯ
+   ============================== */
+
+.chatuchak .mesto {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.chatuchak .mesto h2,
+.chatuchak .mesto h3,
+.chatuchak .mesto p,
+.chatuchak .mesto ul,
+.chatuchak .mesto li,
+.chatuchak .mesto strong {
+    background-color: #2b2f2e;
+}
+
+
+/* ==============================
+   СТОИМОСТЬ
+   ============================== */
+
+.chatuchak .price {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.chatuchak .price h2,
+.chatuchak .price p,
+.chatuchak .price strong {
+    background-color: #2b2f2e;
+}
+
+.chatuchak .price h2 {
+    margin: 10px 0 15px;
+}
+
+
+/* ==============================
+   ВРЕМЯ РАБОТЫ
+   ============================== */
+
+.chatuchak .working-hours {
+    margin: 30px 20px;
+}
+
+.chatuchak .working-hours h2 {
+    margin-bottom: 15px;
+}
+
+
+/* ==============================
+   ОСНОВНОЙ КОНТЕНТ
+   ============================== */
+
+.chatuchak .inside {
+    margin: 30px 20px;
+}
+
+.chatuchak .inside h2 {
+    margin-top: 30px;
+}
+
+.chatuchak .inside h3 {
+    margin-top: 30px;
+}
+
+
+/* Обычные изображения */
+
+.chatuchak .chatuchak-img {
+    display: block;
+    width: 600px;
+    max-width: 100%;
+    margin: 20px 0 25px;
+    border-radius: 15px;
+}
+
+
+/* ==============================
+   БЛОК С ЕДОЙ
+   ============================== */
+
+.chatuchak .chatuchak-food {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin: 20px 0 30px;
+
+    overflow: hidden;
+}
+
+.chatuchak .chatuchak-food img {
+    width: 31%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+.chatuchak .chatuchak-food img:hover {
+    transform: scale(1.03);
+}
+
+
+/* ==============================
+   JJ MALL
+   ============================== */
+
+.chatuchak .chatuchak-jj {
+    display: block;
+    max-width: 100%;
+    margin: 20px 0 25px;
+    border-radius: 15px;
+}
+
+
+/* ==============================
+   ЧТО НАХОДИТСЯ РЯДОМ
+   ============================== */
+
+.chatuchak .info {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.chatuchak .info h2,
+.chatuchak .info h3,
+.chatuchak .info p,
+.chatuchak .info strong,
+.chatuchak .info em {
+    background-color: #2b2f2e;
+}
+
+.chatuchak .info h2 {
+    margin: 10px 0 15px;
+}
+
+
+/* ==============================
+   ВАЖНОЕ
+   ============================== */
+
+.chatuchak .important {
+    margin: 30px 20px 100px;
+}
+
+.chatuchak .important h2 {
+    margin-bottom: 20px;
+}
+
+.chatuchak .important p {
+    line-height: 1.6;
+}
+
+
+                                            /* ==============================
+                                                        МАХАНАКХОН
+                                            ============================== */
+
+.mahanakhon .base > img {
+    float: right;
+    width: 800px;
+    margin: 0 30px 20px 30px;
+}
+
+.mahanakhon .base p {
+    line-height: 1.6;
+}
+
+.mahanakhon .base h1 {
+    margin-bottom: 25px;
+}
+
+.mahanakhon .base h2 {
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   ГДЕ НАХОДИТСЯ / КАК ДОБРАТЬСЯ
+   ============================== */
+
+.mahanakhon .mesto {
+    box-sizing: border-box;
+    width: 50%;
+
+    background-color: #2b2f2e;
+
+    padding: 10px 20px 20px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    float: right;
+
+    margin: 20px 20px 30px 10px;
+}
+
+.mahanakhon .mesto h2,
+.mahanakhon .mesto h3,
+.mahanakhon .mesto p,
+.mahanakhon .mesto ul,
+.mahanakhon .mesto li,
+.mahanakhon .mesto strong,
+.mahanakhon .mesto a {
+    background-color: #2b2f2e;
+}
+
+
+/* ==============================
+   СТОИМОСТЬ
+   ============================== */
+
+.mahanakhon .price {
+    box-sizing: border-box;
+    width: 46%;
+
+    background-color: #2b2f2e;
+
+    padding: 10px 20px 14px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    float: left;
+
+    margin: 20px 0 30px 20px;
+}
+
+.mahanakhon .price h2,
+.mahanakhon .price p,
+.mahanakhon .price ul,
+.mahanakhon .price li,
+.mahanakhon .price strong,
+.mahanakhon .price em {
+    background-color: #2b2f2e;
+}
+
+.mahanakhon .price h2 {
+    margin: 10px 0 15px;
+}
+
+/* ==============================
+   ВРЕМЯ РАБОТЫ
+   ============================== */
+
+.mahanakhon .working-hours {
+    margin: 580px 0 0 20px;
+}
+
+.mahanakhon .working-hours h2 {
+    margin-bottom: 15px;
+}
+
+
+/* ==============================
+   ОСНОВНОЙ КОНТЕНТ
+   ============================== */
+
+.mahanakhon .inside {
+    margin: 30px 20px;
+}
+
+.mahanakhon .inside h2 {
+    margin-top: 30px;
+}
+
+.mahanakhon .inside h3 {
+    margin-top: 30px;
+}
+
+
+/* Обычные изображения */
+
+.mahanakhon .mahanakhon-img {
+    max-width: 100%;
+    margin: 5px 25px 0 0px;
+    border-radius: 15px;
+    float: left;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.mahanakhon .mahanakhon-img:hover {
+    transform: scale(1.03);
+}
+
+
+/* ==============================
+   ГАЛЕРЕЯ ВИДА НА БАНГКОК
+   ============================== */
+
+.mahanakhon .mahanakhon-gallery {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin: 20px 0 30px;
+
+    overflow: hidden;
+}
+
+.mahanakhon .mahanakhon-gallery img {
+    width: 31%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+.mahanakhon .mahanakhon-gallery img:hover {
+    transform: scale(1.03);
+}
+
+
+/* ==============================
+   ПАРК ЛЮМПИНИ
+   ============================== */
+
+.mahanakhon .mahanakhon-park {
+    display: block;
+    max-width: 100%;
+    margin: 20px 0 25px;
+    border-radius: 15px;
+}
+
+
+/* ==============================
+   ЧТО НАХОДИТСЯ РЯДОМ
+   ============================== */
+
+.mahanakhon .info {
+    background-color: #2b2f2e;
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mahanakhon .info h2,
+.mahanakhon .info h3,
+.mahanakhon .info p,
+.mahanakhon .info strong,
+.mahanakhon .info em,
+.mahanakhon .info a {
+    background-color: #2b2f2e;
+}
+
+.mahanakhon .info h2 {
+    margin: 10px 0 15px;
+}
+
+
+/* ==============================
+   ВАЖНОЕ
+   ============================== */
+
+.mahanakhon .important {
+    margin: 30px 20px 100px;
+}
+
+.mahanakhon .important h2 {
+    margin-bottom: 20px;
+}
+
+.mahanakhon .important p {
+    line-height: 1.6;
+}
+
+
+                                            /* ==============================
+                                                        ICONSIAM
+                                            ============================== */
+
+
+/* ==============================
+   ОСНОВНОЙ КОНТЕНТ
+   ============================== */
+
+.iconsiam .base > img {
+    float: right;
+    width: 800px;
+    margin: 0 30px 20px 30px;
+}
+
+.iconsiam .base p {
+    line-height: 1.6;
+}
+
+.iconsiam .base h1 {
+    margin-bottom: 25px;
+}
+
+.iconsiam .base h2 {
+    margin-top: 30px;
+}
+
+.iconsiam .base h3 {
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   ГДЕ НАХОДИТСЯ / КАК ДОБРАТЬСЯ
+   ============================== */
+
+.iconsiam .mesto {
+    box-sizing: border-box;
+    width: 50%;
+
+    background-color: #2b2f2e;
+
+    padding: 10px 20px 20px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    float: right;
+
+    margin: 20px 20px 30px 10px;
+}
+
+.iconsiam .mesto h2,
+.iconsiam .mesto h3,
+.iconsiam .mesto p,
+.iconsiam .mesto ul,
+.iconsiam .mesto li,
+.iconsiam .mesto strong,
+.iconsiam .mesto em,
+.iconsiam .mesto a {
+    background-color: #2b2f2e;
+}
+
+.iconsiam .mesto h2 {
+    margin: 10px 0 15px;
+}
+
+
+/* ==============================
+   СТОИМОСТЬ
+   ============================== */
+
+.iconsiam .price {
+    box-sizing: border-box;
+    width: 46%;
+
+    background-color: #2b2f2e;
+
+    padding: 10px 20px 14px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    float: left;
+
+    margin: 20px 0 30px 20px;
+}
+
+.iconsiam .price h2,
+.iconsiam .price p,
+.iconsiam .price ul,
+.iconsiam .price li,
+.iconsiam .price strong,
+.iconsiam .price em {
+    background-color: #2b2f2e;
+}
+
+.iconsiam .price h2 {
+    margin: 10px 0 15px;
+}
+
+
+/* ==============================
+   ВРЕМЯ РАБОТЫ
+   ============================== */
+
+.iconsiam .working-hours {
+    margin: 580px 0 0 20px;
+}
+
+.iconsiam .working-hours h2 {
+    margin-bottom: 15px;
+}
+
+
+/* ==============================
+   ЧТО ПОСМОТРЕТЬ ВНУТРИ
+   ============================== */
+
+.iconsiam .inside {
+    margin: 30px 20px;
+}
+
+.iconsiam .inside h2 {
+    margin-top: 30px;
+}
+
+.iconsiam .inside h3 {
+    margin-top: 30px;
+}
+
+
+/* Обычные изображения */
+
+.iconsiam .inside > img {
+    display: block;
+
+    max-width: 100%;
+
+    margin: 20px 25px 20px 0;
+
+    border-radius: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+.iconsiam .inside > img:hover {
+    transform: scale(1.03);
+}
+
+
+/* ==============================
+   ТАБЛИЦА С МАГАЗИНАМИ
+   ============================== */
+
+.iconsiam .inside table {
+    width: 100%;
+
+    margin: 20px 0 25px;
+
+    border-collapse: collapse;
+
+    overflow: hidden;
+}
+
+.iconsiam .inside table img {
+    display: block;
+
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+.iconsiam .inside table img:hover {
+    transform: scale(1.03);
+}
+
+.iconsiam .inside table td {
+    padding: 10px;
+}
+
+
+/* ==============================
+   ЧТО НАХОДИТСЯ РЯДОМ
+   ============================== */
+
+.iconsiam .info {
+    background-color: #2b2f2e;
+
+    margin: 30px 450px 30px 20px;
+
+    padding: 10px 20px 20px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+.iconsiam .info h2,
+.iconsiam .info h3,
+.iconsiam .info p,
+.iconsiam .info strong,
+.iconsiam .info em,
+.iconsiam .info a {
+    background-color: #2b2f2e;
+}
+
+.iconsiam .info h2 {
+    margin: 10px 0 15px;
+}
+
+.iconsiam .info h3 {
+    margin-top: 25px;
+}
+
+
+/* ==============================
+   ВАЖНОЕ ДЛЯ ТУРИСТОВ
+   ============================== */
+
+.iconsiam .important {
+    margin: 10px 20px 100px;
+}
+
+.iconsiam .important h2 {
+    margin-bottom: 20px;
+}
+
+.iconsiam .important p {
+    line-height: 1.6;
+}
+
+.iconsiam .important ul {
+    line-height: 1.8;
+}
+
+.iconsiam .xyi {
+    margin: -80px 0 100px 0;
+}
+
+
+
+                                              /* =========================
+                                                    LUMPINI PARK
+                                            ========================= */
+
+
+/* ОСНОВНОЙ КОНТЕНТ */
+
+.lumpini .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 30px 20px 30px;
+    border-radius: 15px;
+}
+
+.lumpini .base p {
+    line-height: 1.6;
+}
+
+.lumpini .base h1 {
+    margin-bottom: 25px;
+}
+
+.lumpini .base h2 {
+    margin-top: 30px;
+}
+
+.lumpini .base h3 {
+    margin-top: 30px;
+}
+
+
+/* ГДЕ НАХОДИТСЯ */
+
+.lumpini .mesto {
+    box-sizing: border-box;
+    width: 50%;
+    background-color: #2b2f2e;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+
+    float: right;
+
+    margin: 20px 20px 30px 10px;
+}
+
+.lumpini .mesto h2 {
+    margin: 10px 0 15px;
+}
+
+
+/* СТОИМОСТЬ */
+
+.lumpini .price {
+    box-sizing: border-box;
+    width: 46%;
+    background-color: #2b2f2e;
+    padding: 10px 20px 14px;
+    border-radius: 15px;
+    overflow: hidden;
+
+    float: left;
+
+    margin: 20px 0 30px 20px;
+}
+
+.lumpini .price h2 {
+    margin: 10px 0 15px;
+}
+
+
+/* ВРЕМЯ РАБОТЫ */
+
+.lumpini .working-hours {
+    margin: 580px 0 0 20px;
+}
+
+.lumpini .working-hours h2 {
+    margin-bottom: 15px;
+}
+
+
+/* ВНУТРЕННИЙ КОНТЕНТ */
+
+.lumpini .inside {
+    margin: 30px 20px;
+}
+
+.lumpini .inside h2 {
+    margin-top: 30px;
+}
+
+.lumpini .inside h3 {
+    margin-top: 30px;
+}
+
+
+/* ОДИНОЧНЫЕ ФОТО */
+
+.lumpini .inside > img {
+    display: block;
+
+    max-width: 100%;
+    width: 600px;
+
+    margin: 20px 25px 20px 0;
+
+    border-radius: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+.lumpini .inside > img:hover {
+    transform: scale(1.03);
+}
+
+
+/* ТАБЛИЦА С ТРЕМЯ ФОТО */
+
+.lumpini .inside table {
+    width: 100%;
+    margin: 20px 0 25px;
+
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.lumpini .inside table td {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.lumpini .inside table img {
+    display: block;
+
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+.lumpini .inside table img:hover {
+    transform: scale(1.03);
+}
+
+
+/* ЧТО НАХОДИТСЯ РЯДОМ */
+
+.lumpini .info {
+    background-color: #2b2f2e;
+
+    margin: 30px 450px 30px 20px;
+    padding: 10px 20px 20px;
+
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.lumpini .info h2 {
+    margin: 10px 0 15px;
+}
+
+.lumpini .info h3 {
+    margin-top: 25px;
+}
+
+
+/* ВАЖНАЯ ИНФОРМАЦИЯ */
+
+.lumpini .important {
+    margin: 30px 20px 100px;
+}
+
+.lumpini .important h2 {
+    margin-bottom: 20px;
+}
+
+.lumpini .important p {
+    line-height: 1.6;
+}
+
+.lumpini .important ul {
+    line-height: 1.8;
+}
+
+
+/* ССЫЛКИ */
+
+.lumpini .info a,
+.lumpini .mesto a {
+    color: inherit;
+}
+
+                                            /* =========================
+                                                 СТРАНИЦА «СОВЕТЫ»
+                                            ========================= */
+
+.advice-page {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Вступление */
+
+.advice-intro {
+    background-color: #2b2f2e;
+    color: #ca9c68;
+    padding: 20px 0 5px 0;
+    margin: 20px 0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.advice-intro h1 {
+    margin-top: 0;
+    font-size: 32px;
+    background-color: #2b2f2e;
+}
+
+.advice-intro p {
+    font-size: 18px;
+    line-height: 1.7;
+    background-color: #2b2f2e;
+}
+
+/* Навигация по разделам */
+
+.advice-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 25px 0;
+}
+
+.advice-nav a {
+    display: inline-block;
+    background-color: #2b2f2e;
+    color: #ca9c68;
+    padding: 12px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.advice-nav a:hover {
+    background-color: #ca9c68;
+    color: #13191f;
+}
+
+/* Разделы советов */
+
+.advice-section {
+    margin: 35px 0;
+}
+
+.advice-section h2 {
+    color: #ca9c68;
+    font-size: 27px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ca9c68;
+    padding-bottom: 10px;
+}
+
+/* Сетка карточек */
+
+.advice-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+/* Карточка одной достопримечательности */
+
+.advice-card {
+    background-color: #2b2f2e;
+    color: #ca9c68;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.advice-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+.advice-card h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    background-color: #2b2f2e;
+}
+
+.advice-card ul, 
+.advice-card li {
+    background-color: #2b2f2e;
+}
+
+.advice-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    background-color: #2b2f2e;
+}
+
+.advice-card strong {
+    color: #e6b982;
+}
+
+/* Заключительный блок */
+
+.advice-footer {
+    color: #ca9c68;
+    padding: 5px 0 0 0;
+    margin: -20px 0 100px 0px;
+    border-radius: 15px;
+    line-height: 1.7;
+}
+
+.advice-footer h2 {
+    margin-top: 0;
+    background-color: #2b2f2e;
+}
+
+
+/* =========================================
+   ГАЙД ПО МАРШРУТАМ
+========================================= */
+
+/* ---------- Основа ---------- */
+
+.route-guide {
+    line-height: 1.7;
+}
+
+.route-guide *,
+.route-guide *::before,
+.route-guide *::after {
+    box-sizing: border-box;
+}
+
+.route-guide a {
+    color: #e4b982;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.route-guide a:hover {
+    color: #ffffff;
+}
+
+.route-page {
+    width: min(1200px, calc(100% - 40px));
+    margin: 30px auto 60px;
+}
+
+.route-section {
+    margin: 55px 0;
+    scroll-margin-top: 25px;
+}
+
+.route-section h2 {
+    margin: 0 0 22px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+.route-section h3 {
+    margin: 25px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.route-section h4 {
+    margin: 12px 0 8px;
+    color: #e2b47f;
+    font-size: 18px;
+}
+
+.route-section p {
+    margin: 0 0 16px;
+}
+
+.route-section ul,
+.route-section ol {
+    padding-left: 25px;
+}
+
+.route-section li {
+    margin-bottom: 10px;
+}
+
+/* Подчёркивание только у ссылок внутри текста */
+.route-section p a,
+.route-section li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.route-section p a:hover,
+.route-section li a:hover {
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Обложка ---------- */
+
+.route-hero {
+    position: relative;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.route-hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.route-hero-overlay {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 64px;
+    background: linear-gradient(
+        90deg,
+        rgba(19, 25, 31, 0.96) 0%,
+        rgba(19, 25, 31, 0.82) 48%,
+        rgba(19, 25, 31, 0.12) 100%
+    );
+}
+
+.route-eyebrow {
+    margin: 0 0 16px;
+    color: #e2b47f;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.route-hero h1 {
+    max-width: 700px;
+    margin: 0 0 20px;
+    color: #ffffff;
+    font-size: clamp(34px, 5vw, 58px);
+    line-height: 1.12;
+}
+
+.route-hero-overlay > p:not(.route-eyebrow) {
+    max-width: 650px;
+    margin: 0 0 28px;
+    color: #f0e5d8;
+    font-size: 17px;
+}
+
+
+/* ---------- Кнопки ---------- */
+
+.route-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 12px 22px;
+    border: 1px solid #ca9c68;
+    border-radius: 8px;
+    background-color: #ca9c68;
+    color: #13191f !important;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none !important;
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.route-button:hover {
+    background-color: transparent;
+    color: #e2b47f !important;
+    transform: translateY(-2px);
+}
+
+
+/* ---------- Краткая информация ---------- */
+
+.route-facts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+    margin: 22px 0 40px;
+}
+
+.route-fact {
+    padding: 22px 15px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 12px;
+    background-color: #2b2f2e;
+    text-align: center;
+}
+
+.route-fact span {
+    display: block;
+    color: #e2b47f;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.route-fact p {
+    margin: 8px 0 0;
+    color: #e5d8c8;
+    font-size: 14px;
+}
+
+
+/* ---------- Содержание ---------- */
+
+.route-toc {
+    padding: 25px;
+    border: 1px solid rgba(202, 156, 104, 0.25);
+    border-radius: 14px;
+    background-color: #2b2f2e;
+}
+
+.route-toc h2 {
+    margin: 0 0 18px;
+    color: #e2b47f;
+    font-size: 23px;
+}
+
+.route-toc-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.route-toc-links a {
+    display: inline-block;
+    padding: 9px 14px;
+    border: 1px solid rgba(202, 156, 104, 0.3);
+    border-radius: 7px;
+    background-color: #202624;
+    color: #e5d8c8;
+    font-size: 14px;
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.route-toc-links a:hover {
+    border-color: #ca9c68;
+    background-color: #ca9c68;
+    color: #13191f;
+}
+
+
+/* ---------- Вступление и заметки ---------- */
+
+.route-intro {
+    padding: 28px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+}
+
+.route-intro p {
+    margin: 0;
+}
+
+.route-note {
+    margin: 24px 0;
+    padding: 20px 22px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 10px 10px 0;
+    background-color: #2b2f2e;
+    color: #e5d8c8;
+}
+
+.route-note strong {
+    color: #e2b47f;
+}
+
+
+/* ---------- Сетки и карточки ---------- */
+
+.route-grid {
+    display: grid;
+    gap: 22px;
+    align-items: stretch;
+}
+
+.route-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.route-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.route-card {
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid rgba(202, 156, 104, 0.15);
+    border-radius: 14px;
+    background-color: #2b2f2e;
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.route-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(202, 156, 104, 0.6);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.route-card > img {
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+}
+
+.route-card:hover > img {
+    transform: scale(1.025);
+}
+
+.route-card-content {
+    padding: 20px;
+}
+
+.route-card-content h3 {
+    margin: 0 0 12px;
+}
+
+.route-card-content p:last-child {
+    margin-bottom: 0;
+}
+
+.route-card-content p,
+.route-text-card p,
+.route-text-card li {
+    color: #e5d8c8;
+}
+
+.route-text-card {
+    padding: 25px;
+}
+
+.route-text-card h3 {
+    margin-top: 0;
+}
+
+.route-text-card ul,
+.route-text-card ol {
+    margin-bottom: 0;
+}
+
+.route-wide-image {
+    display: block;
+    width: 100%;
+    max-height: 480px;
+    margin: 25px 0;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+
+/* ---------- Маршрут по дням ---------- */
+
+.route-day {
+    margin: 35px 0;
+    padding: 28px;
+    border: 1px solid rgba(202, 156, 104, 0.22);
+    border-radius: 16px;
+    background-color: #202624;
+    scroll-margin-top: 25px;
+}
+
+.route-day-heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.route-day-number {
+    display: flex;
+    flex: 0 0 66px;
+    width: 66px;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ca9c68;
+    color: #13191f;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.route-day-heading h3 {
+    margin: 0 0 5px;
+    font-size: 25px;
+}
+
+.route-day-heading p {
+    margin: 0;
+    color: #c8b6a1;
+}
+
+.route-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.route-stop {
+    display: grid;
+    grid-template-columns: 125px minmax(0, 1fr);
+    gap: 22px;
+    align-items: start;
+}
+
+.route-time {
+    display: inline-block;
+    padding: 8px 10px;
+    border: 1px solid rgba(202, 156, 104, 0.35);
+    border-radius: 7px;
+    color: #e2b47f;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.route-stop-content {
+    min-width: 0;
+}
+
+/* Остановка без времени (день 7) — на всю ширину */
+.route-stop-content:only-child {
+    grid-column: 1 / -1;
+}
+
+.route-stop-content h4 {
+    margin-top: 0;
+}
+
+.route-stop-content p {
+    margin-bottom: 0;
+}
+
+.route-stop-image {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    max-height: 380px;
+    margin: 15px 0;
+    border-radius: 11px;
+    object-fit: cover;
+    transition: filter 0.25s ease;
+}
+
+.route-stop-image:hover {
+    filter: brightness(1.08);
+}
+
+
+/* ---------- Ссылки на сервисы ---------- */
+
+.route-link-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.route-link-list a {
+    padding: 11px 16px;
+    border: 1px solid rgba(202, 156, 104, 0.35);
+    border-radius: 8px;
+    background-color: #2b2f2e;
+}
+
+.route-link-list a:hover {
+    background-color: #ca9c68;
+    color: #13191f;
+}
+
+.route-link-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.route-link-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 12px;
+    background-color: #2b2f2e;
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.route-link-card:hover {
+    transform: translateY(-3px);
+    border-color: #ca9c68;
+}
+
+.route-link-card > span {
+    display: flex;
+    flex: 0 0 38px;
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #ca9c68;
+    color: #13191f;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.route-link-card h3 {
+    margin: 0 0 6px;
+    font-size: 17px;
+}
+
+.route-link-card p {
+    margin: 0;
+    color: #e5d8c8;
+    font-size: 14px;
+}
+
+
+/* ---------- Бюджет ---------- */
+
+.route-budget-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.route-budget-card {
+    padding: 22px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 12px;
+    background-color: #2b2f2e;
+}
+
+.route-budget-number {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #e2b47f;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.route-budget-card h3 {
+    margin: 0 0 10px;
+    font-size: 19px;
+}
+
+.route-budget-card p {
+    margin: 0;
+    color: #e5d8c8;
+    font-size: 15px;
+}
+
+
+/* ---------- Предупреждения ---------- */
+
+.route-warning-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.route-warning {
+    padding: 22px;
+    border: 1px solid rgba(202, 156, 104, 0.18);
+    border-radius: 12px;
+    background-color: #2b2f2e;
+}
+
+.route-warning h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.route-warning p {
+    margin: 0;
+    color: #e5d8c8;
+}
+
+
+/* ---------- Чек-листы ---------- */
+
+.route-checklist {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.route-checklist li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.route-checklist li::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #e2b47f;
+    content: "✓";
+    font-weight: bold;
+}
+
+.route-checklist-box {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 25px;
+    border: 1px solid rgba(202, 156, 104, 0.25);
+    border-radius: 12px;
+    background-color: #2b2f2e;
+}
+
+.route-checklist-box label {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: #e5d8c8;
+    cursor: pointer;
+}
+
+.route-checklist-box input[type="checkbox"] {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+    accent-color: #ca9c68;
+    cursor: pointer;
+}
+
+
+/* ---------- Финальный блок ---------- */
+
+.route-ending {
+    position: relative;
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 60px;
+    border-radius: 16px;
+    background-color: #2b2f2e;
+}
+
+.route-ending > img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.route-ending-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 45px;
+    background: linear-gradient(
+        90deg,
+        rgba(19, 25, 31, 0.95),
+        rgba(19, 25, 31, 0.72) 65%,
+        rgba(19, 25, 31, 0.2)
+    );
+}
+
+.route-ending-content h2 {
+    max-width: 650px;
+    margin: 0 0 15px;
+    color: #ffffff;
+    font-size: clamp(27px, 4vw, 40px);
+    line-height: 1.2;
+}
+
+.route-ending-content > p:not(.route-eyebrow) {
+    max-width: 650px;
+    margin: 0 0 25px;
+    color: #f0e5d8;
+}
+
+
+/* ---------- Подвал ---------- */
+
+.route-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 25px max(20px, calc((100% - 1200px) / 2));
+    border-top: 1px solid rgba(202, 156, 104, 0.2);
+    color: #c8b6a1;
+}
+
+.route-footer p {
+    margin: 0;
+}
+
+.route-footer a {
+    color: #e2b47f;
+}
+
+
+                                            /* ==============================
+                                                        ЧАЙНА-ТАУН
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.chinatown .base {
+    margin: 0 20px;
+}
+
+.chinatown .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.chinatown .base p {
+    line-height: 1.7;
+}
+
+.chinatown .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.chinatown .mesto,
+.chinatown .price,
+.chinatown .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.chinatown .mesto h2,
+.chinatown .price h2,
+.chinatown .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.chinatown .mesto h3,
+.chinatown .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.chinatown .mesto p,
+.chinatown .price p,
+.chinatown .info p {
+    margin: 0 0 12px;
+}
+
+.chinatown .mesto p:last-child,
+.chinatown .price p:last-child,
+.chinatown .info p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ---------- Время работы ---------- */
+
+.chinatown .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.chinatown .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+
+/* ---------- Что посмотреть / попробовать ---------- */
+
+.chinatown .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.chinatown .inside h2 {
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.chinatown .inside h2:first-child {
+    margin-top: 0;
+}
+
+.chinatown .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.chinatown .inside p {
+    margin: 0 0 12px;
+}
+
+.chinatown .inside ul {
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.chinatown .inside li {
+    margin-bottom: 8px;
+}
+
+.chinatown .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.chinatown .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Фото уличной еды ---------- */
+
+.chinatown .inside table {
+    width: 100%;
+    max-width: 900px;
+    margin: 15px 0 20px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 15px 0;
+    margin-left: -15px;
+}
+
+.chinatown .inside table td {
+    width: 50%;
+    padding: 0;
+}
+
+.chinatown .inside table img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.chinatown .inside table img:hover {
+    transform: scale(1.03);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.chinatown em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.chinatown strong {
+    color: #e6b982;
+}
+
+.chinatown p a,
+.chinatown h3 a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.chinatown p a:hover,
+.chinatown h3 a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Важное для туристов ---------- */
+
+.chinatown .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.chinatown .important h2 {
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.chinatown .important h2:first-child {
+    margin-top: 0;
+}
+
+.chinatown .important p {
+    margin: 0 0 14px;
+}
+
+.chinatown .important ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .chinatown .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .chinatown .inside > img {
+        height: auto;
+        max-height: 350px;
+    }
+
+    .chinatown .inside table {
+        margin-left: 0;
+        border-spacing: 0;
+    }
+
+    .chinatown .inside table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+
+                                            /* ==============================
+                                                      ВАТ САКЕТ
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.wat-saket .base {
+    margin: 0 20px;
+}
+
+.wat-saket .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.wat-saket .base p {
+    line-height: 1.7;
+}
+
+.wat-saket .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.wat-saket .mesto,
+.wat-saket .price,
+.wat-saket .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.wat-saket .mesto h2,
+.wat-saket .price h2,
+.wat-saket .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.wat-saket .mesto h3,
+.wat-saket .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.wat-saket .mesto p,
+.wat-saket .price p,
+.wat-saket .info p {
+    margin: 0 0 12px;
+}
+
+.wat-saket .mesto p:last-child,
+.wat-saket .price p:last-child,
+.wat-saket .info p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ---------- Время работы ---------- */
+
+.wat-saket .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.wat-saket .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+
+/* ---------- Что посмотреть ---------- */
+
+.wat-saket .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.wat-saket .inside h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.wat-saket .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.wat-saket .inside p {
+    margin: 0 0 12px;
+}
+
+.wat-saket .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.wat-saket .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Фото смотровой площадки ---------- */
+
+.wat-saket .inside table {
+    width: calc(100% + 30px);
+    max-width: 930px;
+    margin: 15px 0 20px -15px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 15px 0;
+}
+
+.wat-saket .inside table td {
+    padding: 0;
+}
+
+.wat-saket .inside table td:first-child {
+    width: 35%;
+}
+
+.wat-saket .inside table td:last-child {
+    width: 65%;
+}
+
+.wat-saket .inside table img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.wat-saket .inside table img:hover {
+    transform: scale(1.03);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.wat-saket em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.wat-saket strong {
+    color: #e6b982;
+}
+
+.wat-saket p a,
+.wat-saket h3 a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.wat-saket p a:hover,
+.wat-saket h3 a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Важное для туристов ---------- */
+
+.wat-saket .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.wat-saket .important h2 {
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.wat-saket .important h2:first-child {
+    margin-top: 0;
+}
+
+.wat-saket .important p {
+    margin: 0 0 14px;
+}
+
+.wat-saket .important ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .wat-saket .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .wat-saket .inside > img {
+        height: auto;
+        max-height: 350px;
+    }
+
+    .wat-saket .inside table {
+        width: 100%;
+        margin-left: 0;
+        border-spacing: 0;
+    }
+
+    .wat-saket .inside table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+                                            /* ==============================
+                                                    МРАМОРНЫЙ ХРАМ
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.marble-temple .base {
+    margin: 0 20px;
+}
+
+.marble-temple .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.marble-temple .base p {
+    line-height: 1.7;
+}
+
+.marble-temple .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.marble-temple .mesto,
+.marble-temple .price,
+.marble-temple .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.marble-temple .mesto h2,
+.marble-temple .price h2,
+.marble-temple .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.marble-temple .mesto h3,
+.marble-temple .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.marble-temple .mesto p,
+.marble-temple .price p,
+.marble-temple .info p {
+    margin: 0 0 12px;
+}
+
+.marble-temple .mesto p:last-child,
+.marble-temple .price p:last-child,
+.marble-temple .info p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ---------- Время работы ---------- */
+
+.marble-temple .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.marble-temple .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+
+/* ---------- Что посмотреть ---------- */
+
+.marble-temple .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.marble-temple .inside h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.marble-temple .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.marble-temple .inside p {
+    margin: 0 0 12px;
+}
+
+.marble-temple .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.marble-temple .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Фото колонн ---------- */
+
+.marble-temple .inside table {
+    width: calc(100% + 30px);
+    max-width: 930px;
+    margin: 15px 0 20px -15px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 15px 0;
+}
+
+.marble-temple .inside table td {
+    padding: 0;
+}
+
+.marble-temple .inside table td:first-child {
+    width: 42%;
+}
+
+.marble-temple .inside table td:last-child {
+    width: 58%;
+}
+
+.marble-temple .inside table img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.marble-temple .inside table img:hover {
+    transform: scale(1.03);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.marble-temple em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.marble-temple strong {
+    color: #e6b982;
+}
+
+.marble-temple p a,
+.marble-temple h3 a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.marble-temple p a:hover,
+.marble-temple h3 a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Важное для туристов ---------- */
+
+.marble-temple .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.marble-temple .important h2 {
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.marble-temple .important h2:first-child {
+    margin-top: 0;
+}
+
+.marble-temple .important p {
+    margin: 0 0 14px;
+}
+
+.marble-temple .important ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .marble-temple .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .marble-temple .inside > img {
+        height: auto;
+        max-height: 350px;
+    }
+
+    .marble-temple .inside table {
+        width: 100%;
+        margin-left: 0;
+        border-spacing: 0;
+    }
+
+    .marble-temple .inside table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+                                            /* ==============================
+                                                  НАЦИОНАЛЬНЫЙ МУЗЕЙ
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.national-museum .base {
+    margin: 0 20px;
+}
+
+.national-museum .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.national-museum .base p {
+    line-height: 1.7;
+}
+
+.national-museum .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.national-museum .mesto,
+.national-museum .price,
+.national-museum .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.national-museum .mesto h2,
+.national-museum .price h2,
+.national-museum .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.national-museum .mesto h3,
+.national-museum .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.national-museum .mesto p,
+.national-museum .price p,
+.national-museum .info p {
+    margin: 0 0 12px;
+}
+
+.national-museum .mesto p:last-child,
+.national-museum .price p:last-child,
+.national-museum .info p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ---------- Время работы ---------- */
+
+.national-museum .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.national-museum .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+
+/* ---------- Что посмотреть ---------- */
+
+.national-museum .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.national-museum .inside h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.national-museum .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.national-museum .inside p {
+    margin: 0 0 12px;
+}
+
+.national-museum .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.national-museum .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Фото оружия ---------- */
+
+.national-museum .inside table {
+    width: calc(100% + 30px);
+    max-width: 930px;
+    margin: 15px 0 20px -15px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 15px 0;
+}
+
+.national-museum .inside table td {
+    width: 50%;
+    padding: 0;
+}
+
+.national-museum .inside table img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.national-museum .inside table img:hover {
+    transform: scale(1.03);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.national-museum em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.national-museum strong {
+    color: #e6b982;
+}
+
+.national-museum p a,
+.national-museum h3 a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.national-museum p a:hover,
+.national-museum h3 a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Важное для туристов ---------- */
+
+.national-museum .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.national-museum .important h2 {
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.national-museum .important h2:first-child {
+    margin-top: 0;
+}
+
+.national-museum .important p {
+    margin: 0 0 14px;
+}
+
+.national-museum .important ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .national-museum .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .national-museum .inside > img {
+        height: auto;
+        max-height: 350px;
+    }
+
+    .national-museum .inside table {
+        width: 100%;
+        margin-left: 0;
+        border-spacing: 0;
+    }
+
+    .national-museum .inside table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+                                            /* ==============================
+                                                  ДОМ ДЖИМА ТОМПСОНА
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.jim-thompson .base {
+    margin: 0 20px;
+}
+
+.jim-thompson .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.jim-thompson .base p {
+    line-height: 1.7;
+}
+
+.jim-thompson .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.jim-thompson .mesto,
+.jim-thompson .price,
+.jim-thompson .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.jim-thompson .mesto h2,
+.jim-thompson .price h2,
+.jim-thompson .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.jim-thompson .mesto h3,
+.jim-thompson .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.jim-thompson .mesto p,
+.jim-thompson .price p,
+.jim-thompson .info p {
+    margin: 0 0 12px;
+}
+
+.jim-thompson .mesto p:last-child,
+.jim-thompson .price p:last-child,
+.jim-thompson .info p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ---------- Время работы ---------- */
+
+.jim-thompson .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.jim-thompson .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+
+/* ---------- Что посмотреть / История ---------- */
+
+.jim-thompson .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.jim-thompson .inside h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.jim-thompson .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.jim-thompson .inside p {
+    margin: 0 0 12px;
+}
+
+.jim-thompson .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.jim-thompson .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Фото фарфора ---------- */
+
+.jim-thompson .inside table {
+    width: calc(100% + 30px);
+    max-width: 930px;
+    margin: 15px 0 20px -15px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 15px 0;
+}
+
+.jim-thompson .inside table td {
+    padding: 0;
+}
+
+.jim-thompson .inside table td:first-child {
+    width: 64%;
+}
+
+.jim-thompson .inside table td:last-child {
+    width: 36%;
+}
+
+.jim-thompson .inside table img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.jim-thompson .inside table img:hover {
+    transform: scale(1.03);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.jim-thompson em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.jim-thompson strong {
+    color: #e6b982;
+}
+
+.jim-thompson p a,
+.jim-thompson h3 a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.jim-thompson p a:hover,
+.jim-thompson h3 a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Важное для туристов ---------- */
+
+.jim-thompson .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.jim-thompson .important h2 {
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.jim-thompson .important h2:first-child {
+    margin-top: 0;
+}
+
+.jim-thompson .important p {
+    margin: 0 0 14px;
+}
+
+.jim-thompson .important ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .jim-thompson .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .jim-thompson .inside > img {
+        height: auto;
+        max-height: 350px;
+    }
+
+    .jim-thompson .inside table {
+        width: 100%;
+        margin-left: 0;
+        border-spacing: 0;
+    }
+
+    .jim-thompson .inside table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+                                            /* ==============================
+                                                        АСИАТИК
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.asiatique .base {
+    margin: 0 20px;
+}
+
+.asiatique .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.asiatique .base p {
+    line-height: 1.7;
+}
+
+.asiatique .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.asiatique .mesto,
+.asiatique .price,
+.asiatique .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.asiatique .mesto h2,
+.asiatique .price h2,
+.asiatique .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.asiatique .mesto h3,
+.asiatique .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.asiatique .mesto p,
+.asiatique .price p,
+.asiatique .info p {
+    margin: 0 0 12px;
+}
+
+.asiatique .mesto p:last-child,
+.asiatique .price p:last-child,
+.asiatique .info p:last-child {
+    margin-bottom: 0;
+}
+
+.asiatique .price ul,
+.asiatique .info ul {
+    margin: 10px 0 0;
+    padding-left: 25px;
+}
+
+.asiatique .price li,
+.asiatique .info li {
+    margin-bottom: 8px;
+}
+
+
+/* ---------- Когда приходить ---------- */
+
+.asiatique .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.asiatique .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.asiatique .working-hours p {
+    margin: 0 0 12px;
+}
+
+
+/* ---------- Описание, история, что посмотреть ---------- */
+
+.asiatique .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.asiatique .inside h2 {
+    margin: 45px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.asiatique .inside h2:first-child {
+    margin-top: 0;
+}
+
+.asiatique .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.asiatique .inside p {
+    margin: 0 0 12px;
+}
+
+.asiatique .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.asiatique .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.asiatique em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.asiatique strong {
+    color: #e6b982;
+}
+
+.asiatique p a,
+.asiatique h3 a,
+.asiatique li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.asiatique p a:hover,
+.asiatique h3 a:hover,
+.asiatique li a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Что запомнить ---------- */
+
+.asiatique .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.asiatique .important h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.asiatique .important p {
+    margin: 0 0 14px;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .asiatique .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .asiatique .inside > img {
+        height: auto;
+        max-height: 350px;
+    }
+}
+
+
+                                            /* ==============================
+                                              ПЛАВУЧИЙ РЫНОК ДАМНОЕН САДУАК
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.floating-market .base {
+    margin: 0 20px;
+}
+
+.floating-market .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.floating-market .base p {
+    line-height: 1.7;
+}
+
+.floating-market .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.floating-market .mesto,
+.floating-market .price,
+.floating-market .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.floating-market .mesto h2,
+.floating-market .price h2,
+.floating-market .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.floating-market .mesto h3,
+.floating-market .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.floating-market .mesto p,
+.floating-market .price p,
+.floating-market .info p {
+    margin: 0 0 12px;
+}
+
+.floating-market .mesto p:last-child,
+.floating-market .price p:last-child,
+.floating-market .info p:last-child {
+    margin-bottom: 0;
+}
+
+.floating-market .price ul,
+.floating-market .info ul {
+    margin: 10px 0 15px;
+    padding-left: 25px;
+}
+
+.floating-market .price li,
+.floating-market .info li {
+    margin-bottom: 8px;
+}
+
+
+/* ---------- Что стоит учитывать ---------- */
+
+.floating-market .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.floating-market .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.floating-market .working-hours p {
+    margin: 0 0 12px;
+}
+
+
+/* ---------- Основной контент ---------- */
+
+.floating-market .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.floating-market .inside h2 {
+    margin: 45px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.floating-market .inside h2:first-child {
+    margin-top: 0;
+}
+
+.floating-market .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.floating-market .inside p {
+    margin: 0 0 12px;
+}
+
+.floating-market .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.floating-market .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.floating-market em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.floating-market strong {
+    color: #e6b982;
+}
+
+.floating-market p a,
+.floating-market h3 a,
+.floating-market li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.floating-market p a:hover,
+.floating-market h3 a:hover,
+.floating-market li a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Что запомнить ---------- */
+
+.floating-market .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.floating-market .important h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.floating-market .important p {
+    margin: 0 0 14px;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .floating-market .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .floating-market .inside > img {
+        height: auto;
+        max-height: 350px;
+    }
+}
+
+                                            /* ==============================
+                                                    РЫНОК МЕКЛОНГ
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.maeklong .base {
+    margin: 0 20px;
+}
+
+.maeklong .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.maeklong .base p {
+    line-height: 1.7;
+}
+
+.maeklong .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.maeklong .mesto,
+.maeklong .price,
+.maeklong .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.maeklong .mesto h2,
+.maeklong .price h2,
+.maeklong .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.maeklong .mesto h3,
+.maeklong .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.maeklong .mesto p,
+.maeklong .price p,
+.maeklong .info p {
+    margin: 0 0 12px;
+}
+
+.maeklong .price ul,
+.maeklong .info ul {
+    margin: 10px 0 15px;
+    padding-left: 25px;
+}
+
+.maeklong .price li,
+.maeklong .info li {
+    margin-bottom: 8px;
+}
+
+.maeklong .mesto > img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 320px;
+    margin: 15px 0 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+}
+
+
+/* ---------- Лучшее время ---------- */
+
+.maeklong .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.maeklong .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.maeklong .working-hours p {
+    margin: 0 0 12px;
+}
+
+
+/* ---------- Основной контент ---------- */
+
+.maeklong .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.maeklong .inside h2 {
+    margin: 45px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.maeklong .inside h2:first-child {
+    margin-top: 0;
+}
+
+.maeklong .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.maeklong .inside p {
+    margin: 0 0 12px;
+}
+
+.maeklong .inside ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+.maeklong .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.maeklong .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.maeklong em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.maeklong strong {
+    color: #e6b982;
+}
+
+.maeklong p a,
+.maeklong h3 a,
+.maeklong li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.maeklong p a:hover,
+.maeklong h3 a:hover,
+.maeklong li a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Что запомнить ---------- */
+
+.maeklong .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.maeklong .important h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.maeklong .important p {
+    margin: 0 0 14px;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .maeklong .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .maeklong .inside > img,
+    .maeklong .mesto > img {
+        height: auto;
+        max-height: 350px;
+    }
+}
+
+
+                                            /* ==============================
+                                                      SEA LIFE BANGKOK
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.sea-life .base {
+    margin: 0 20px;
+}
+
+.sea-life .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.sea-life .base p {
+    line-height: 1.7;
+}
+
+.sea-life .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.sea-life .mesto,
+.sea-life .price,
+.sea-life .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.sea-life .mesto h2,
+.sea-life .price h2,
+.sea-life .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.sea-life .mesto h3,
+.sea-life .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.sea-life .mesto p,
+.sea-life .price p,
+.sea-life .info p {
+    margin: 0 0 12px;
+}
+
+.sea-life .price ul,
+.sea-life .info ul {
+    margin: 10px 0 15px;
+    padding-left: 25px;
+}
+
+.sea-life .price li,
+.sea-life .info li {
+    margin-bottom: 8px;
+}
+
+.sea-life .mesto > img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 320px;
+    margin: 15px 0 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+}
+
+
+/* ---------- Сколько времени ---------- */
+
+.sea-life .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.sea-life .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.sea-life .working-hours p {
+    margin: 0 0 12px;
+}
+
+
+/* ---------- Зоны океанариума ---------- */
+
+.sea-life .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.sea-life .inside h2 {
+    margin: 45px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.sea-life .inside h2:first-child {
+    margin-top: 0;
+}
+
+.sea-life .inside p {
+    margin: 0 0 12px;
+}
+
+.sea-life .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.sea-life .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.sea-life em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.sea-life strong {
+    color: #e6b982;
+}
+
+.sea-life p a,
+.sea-life h3 a,
+.sea-life li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.sea-life p a:hover,
+.sea-life h3 a:hover,
+.sea-life li a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Что запомнить ---------- */
+
+.sea-life .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.sea-life .important h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.sea-life .important p {
+    margin: 0 0 14px;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .sea-life .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .sea-life .inside > img,
+    .sea-life .mesto > img {
+        height: auto;
+        max-height: 350px;
+    }
+}
+
+                                            /* ==============================
+                                                    СВЯТИЛИЩЕ ЭРАВАН
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.erawan .base {
+    margin: 0 20px;
+}
+
+.erawan .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.erawan .base p {
+    line-height: 1.7;
+}
+
+.erawan .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.erawan .mesto,
+.erawan .price,
+.erawan .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.erawan .mesto h2,
+.erawan .price h2,
+.erawan .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.erawan .mesto h3,
+.erawan .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.erawan .mesto p,
+.erawan .price p,
+.erawan .info p {
+    margin: 0 0 12px;
+}
+
+.erawan .mesto ul,
+.erawan .price ul,
+.erawan .info ul {
+    margin: 10px 0 15px;
+    padding-left: 25px;
+}
+
+.erawan .mesto li,
+.erawan .price li,
+.erawan .info li {
+    margin-bottom: 8px;
+}
+
+.erawan .info > img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 320px;
+    margin: 12px 0 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.erawan .info > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Время работы ---------- */
+
+.erawan .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.erawan .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.erawan .working-hours p {
+    margin: 0 0 12px;
+}
+
+.erawan .working-hours ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Что посмотреть ---------- */
+
+.erawan .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.erawan .inside h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.erawan .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.erawan .inside p {
+    margin: 0 0 12px;
+}
+
+.erawan .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.erawan .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.erawan em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.erawan strong {
+    color: #e6b982;
+}
+
+.erawan p a,
+.erawan h3 a,
+.erawan li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.erawan p a:hover,
+.erawan h3 a:hover,
+.erawan li a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Важное для туристов ---------- */
+
+.erawan .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.erawan .important h2 {
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.erawan .important h2:first-child {
+    margin-top: 0;
+}
+
+.erawan .important p {
+    margin: 0 0 14px;
+}
+
+.erawan .important ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .erawan .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .erawan .inside > img,
+    .erawan .info > img {
+        height: auto;
+        max-height: 350px;
+    }
+}
+
+                                            /* ==============================
+                                              КОРОЛЕВСКИЙ ПАРК РАТЧАПРУЕК
+                                            ============================== */
+
+/* ---------- Основное ---------- */
+
+.ratchapruek .base {
+    margin: 0 20px;
+}
+
+.ratchapruek .base > img {
+    float: right;
+    width: 800px;
+    max-width: 55%;
+    margin: 0 0 20px 30px;
+}
+
+.ratchapruek .base p {
+    line-height: 1.7;
+}
+
+.ratchapruek .base h1 {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #e2b47f;
+}
+
+
+/* ---------- Общие карточки ---------- */
+
+.ratchapruek .mesto,
+.ratchapruek .price,
+.ratchapruek .info {
+    max-width: 900px;
+    margin: 30px 20px;
+    padding: 15px 25px 25px;
+    border: 1px solid rgba(202, 156, 104, 0.2);
+    border-radius: 15px;
+    background-color: #2b2f2e;
+    line-height: 1.7;
+}
+
+.ratchapruek .mesto h2,
+.ratchapruek .price h2,
+.ratchapruek .info h2 {
+    margin: 10px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.ratchapruek .mesto h3,
+.ratchapruek .info h3 {
+    margin: 25px 0 10px;
+    color: #e2b47f;
+    font-size: 21px;
+}
+
+.ratchapruek .mesto p,
+.ratchapruek .price p,
+.ratchapruek .info p {
+    margin: 0 0 12px;
+}
+
+.ratchapruek .mesto ul,
+.ratchapruek .price ul,
+.ratchapruek .info ul {
+    margin: 10px 0 15px;
+    padding-left: 25px;
+}
+
+.ratchapruek .mesto li,
+.ratchapruek .price li,
+.ratchapruek .info li {
+    margin-bottom: 8px;
+}
+
+
+/* ---------- Три фото Дой Сутхеп ---------- */
+
+.ratchapruek .info table {
+    width: calc(100% + 24px);
+    margin: 12px 0 15px -12px;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 12px 0;
+}
+
+.ratchapruek .info table td {
+    width: 33.33%;
+    padding: 0;
+}
+
+.ratchapruek .info table img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.ratchapruek .info table img:hover {
+    transform: scale(1.03);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Время работы ---------- */
+
+.ratchapruek .working-hours {
+    max-width: 900px;
+    margin: 30px 20px;
+    line-height: 1.7;
+}
+
+.ratchapruek .working-hours h2 {
+    margin-bottom: 15px;
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.ratchapruek .working-hours p {
+    margin: 0 0 12px;
+}
+
+.ratchapruek .working-hours ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Что посмотреть ---------- */
+
+.ratchapruek .inside {
+    max-width: 900px;
+    margin: 40px 20px;
+    line-height: 1.7;
+}
+
+.ratchapruek .inside h2 {
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.ratchapruek .inside h3 {
+    margin: 35px 0 12px;
+    color: #e2b47f;
+    font-size: 22px;
+}
+
+.ratchapruek .inside p {
+    margin: 0 0 12px;
+}
+
+.ratchapruek .inside ul {
+    margin: 12px 0 15px;
+    padding-left: 25px;
+}
+
+.ratchapruek .inside li {
+    margin-bottom: 8px;
+}
+
+.ratchapruek .inside > img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 15px 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #594c3d;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.ratchapruek .inside > img:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+
+
+/* ---------- Выделение и ссылки ---------- */
+
+.ratchapruek em {
+    padding: 0 5px;
+    border-radius: 4px;
+    font-style: normal;
+}
+
+.ratchapruek strong {
+    color: #e6b982;
+}
+
+.ratchapruek p a,
+.ratchapruek h3 a,
+.ratchapruek li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(202, 156, 104, 0.5);
+    text-underline-offset: 3px;
+}
+
+.ratchapruek p a:hover,
+.ratchapruek h3 a:hover,
+.ratchapruek li a:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+/* ---------- Важное для туристов ---------- */
+
+.ratchapruek .important {
+    max-width: 900px;
+    margin: 40px 20px 100px;
+    line-height: 1.7;
+}
+
+.ratchapruek .important h2 {
+    margin: 40px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(202, 156, 104, 0.35);
+    color: #e2b47f;
+    font-size: 28px;
+}
+
+.ratchapruek .important h2:first-child {
+    margin-top: 0;
+}
+
+.ratchapruek .important p {
+    margin: 0 0 14px;
+}
+
+.ratchapruek .important ul {
+    margin: 15px 0;
+    padding: 20px 25px 20px 45px;
+    border-left: 4px solid #ca9c68;
+    border-radius: 0 12px 12px 0;
+    background-color: #2b2f2e;
+    line-height: 1.8;
+}
+
+
+/* ---------- Мобильная версия ---------- */
+
+@media (max-width: 1000px) {
+    .ratchapruek .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .ratchapruek .inside > img {
+        height: auto;
+        max-height: 350px;
+    }
+
+    .ratchapruek .info table {
+        width: 100%;
+        margin-left: 0;
+        border-spacing: 0;
+    }
+
+    .ratchapruek .info table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+
+/* ==========================================================
+   АДАПТИВНАЯ МОБИЛЬНАЯ ВЕРСИЯ
+   Добавлено поверх существующих стилей; десктопный дизайн сохранён.
+   ========================================================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img,
+video,
+iframe {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+table {
+    max-width: 100%;
+}
+
+/* Планшеты и небольшие ноутбуки */
+@media (max-width: 1000px) {
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-size: 17px;
+    }
+
+    /* Шапка: убираем большие фиксированные отступы */
+    .glav {
+        width: 100%;
+        height: auto;
+        margin: 0 0 20px;
+        border-collapse: collapse;
+    }
+
+    .glav tr {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+        padding: 12px 20px;
+    }
+
+    .glav td,
+    .glav td:first-child {
+        width: auto;
+        padding: 0;
+        white-space: normal;
+    }
+
+    .glav h2 {
+        margin: 0;
+        font-size: clamp(25px, 4vw, 36px);
+    }
+
+    .glav a {
+        font-size: 17px;
+    }
+
+    /* Контентные блоки и карточки */
+    body[class] .base,
+    body[class] .mesto,
+    body[class] .price,
+    body[class] .info,
+    body[class] .important,
+    body[class] .inside,
+    body[class] .river-route {
+        max-width: none;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    body[class] .base > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 0 20px;
+        object-fit: cover;
+    }
+
+    /* Убираем отступы, которые сдвигают карточки далеко вправо */
+    body[class] .mesto,
+    body[class] .price,
+    body[class] .info {
+        padding: 16px 18px 20px;
+    }
+
+    body[class] .inside > img,
+    body[class] .inside table img,
+    body[class] .info img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 420px;
+        object-fit: cover;
+    }
+
+    /* Таблицы с фотографиями превращаем в вертикальные карточки */
+    body[class] .inside table,
+    body[class] .info table {
+        width: 100%;
+        margin-left: 0;
+        border-spacing: 0;
+    }
+
+    body[class] .inside table tr,
+    body[class] .info table tr {
+        display: block;
+        width: 100%;
+    }
+
+    body[class] .inside table td,
+    body[class] .info table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0 0 14px;
+    }
+
+    /* Заголовки и текст */
+    body[class] .base h1 {
+        font-size: clamp(28px, 4.5vw, 38px);
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+
+    body[class] .mesto h2,
+    body[class] .price h2,
+    body[class] .info h2,
+    body[class] .important h2,
+    body[class] .inside h2 {
+        font-size: clamp(23px, 3.5vw, 28px);
+        line-height: 1.3;
+    }
+
+    body[class] .mesto h3,
+    body[class] .info h3,
+    body[class] .inside h3 {
+        font-size: clamp(19px, 3vw, 22px);
+        line-height: 1.35;
+    }
+
+    body[class] p,
+    body[class] li {
+        overflow-wrap: anywhere;
+    }
+
+    body[class] .important ul {
+        padding: 16px 18px 16px 32px;
+    }
+}
+
+/* Смартфоны */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .glav tr {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+
+    .glav td,
+    .glav td:first-child {
+        display: block;
+        width: 100%;
+    }
+
+    .glav h2 {
+        font-size: 28px;
+    }
+
+    .glav a {
+        font-size: 16px;
+    }
+
+    body[class] .base,
+    body[class] .mesto,
+    body[class] .price,
+    body[class] .info,
+    body[class] .important,
+    body[class] .inside,
+    body[class] .river-route {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    body[class] .mesto,
+    body[class] .price,
+    body[class] .info {
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    body[class] .base h1 {
+        margin-top: 16px;
+        margin-bottom: 18px;
+        font-size: 29px;
+    }
+
+    body[class] .mesto h2,
+    body[class] .price h2,
+    body[class] .info h2,
+    body[class] .important h2,
+    body[class] .inside h2 {
+        margin-top: 24px;
+        margin-bottom: 14px;
+        font-size: 23px;
+    }
+
+    body[class] .base > img,
+    body[class] .inside > img,
+    body[class] .inside table img,
+    body[class] .info img {
+        border-radius: 10px;
+    }
+
+    body[class] .inside table td,
+    body[class] .info table td {
+        padding: 8px 0;
+    }
+
+    body[class] .important ul {
+        padding: 14px 14px 14px 28px;
+    }
+
+    body[class] .important {
+        margin-bottom: 50px;
+    }
+
+    /* Не даём длинным адресам и ссылкам расширять страницу */
+    a,
+    p,
+    li,
+    td,
+    h1,
+    h2,
+    h3 {
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+}
+
+/* Очень узкие экраны */
+@media (max-width: 360px) {
+    .glav h2 {
+        font-size: 25px;
+    }
+
+    body[class] .base,
+    body[class] .mesto,
+    body[class] .price,
+    body[class] .info,
+    body[class] .important,
+    body[class] .inside,
+    body[class] .river-route {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    body[class] .mesto,
+    body[class] .price,
+    body[class] .info {
+        padding: 12px;
+    }
+}
